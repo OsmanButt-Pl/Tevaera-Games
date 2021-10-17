@@ -1,0 +1,11 @@
+**/azp-yaml/**
+**/coverage/**
+**/node_modules/**
+bin/
+dist/**
+**/*.generated.tsx
+**/*.config.js
+README.md
+src/__tests__/**
+.eslintrc
+**/cypress/**

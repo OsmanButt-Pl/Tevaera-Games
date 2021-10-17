@@ -1,0 +1,16 @@
+overwrite: true
+schema:
+  - #{GQL_SCHEMA_ENDPOINT}#:
+      headers:
+        x-daoiq-apim: '#{TEVAERA_API_SUBSCRIPTION_KEY}#'
+        x-daoiq-codegen: true
+documents: "src/gql/*.tsx"
+generates:
+  src/gql-types.generated.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

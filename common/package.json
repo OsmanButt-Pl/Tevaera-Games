@@ -1,0 +1,30 @@
+{
+  "name": "@tevaera/common",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "@types/react-input-mask": "^2.0.5",
+    "@unicef/material-ui-currency-textfield": "^0.8.6",
+    "apollo-upload-client": "^14.1.1",
+    "b2a": "^1.1.2",
+    "dayjs": "^1.8.23",
+    "react-imask": "^6.0.3",
+    "react-number-format": "^4.4.1",
+    "react-test-renderer": "^16.13.0",
+    "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo TODO: add unit tests with watch!",
+    "test:ci": "echo TODO: add unit tests!"
+  },
+  "devDependencies": {
+    "@types/apollo-upload-client": "^8.1.3",
+    "@types/b2a": "^1.0.0",
+    "@types/uuid": "^7.0.2",
+    "ts-auto-mock": "^1.5.7"
+  }
+}

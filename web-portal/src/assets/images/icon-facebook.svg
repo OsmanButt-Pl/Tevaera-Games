@@ -1,0 +1,25 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bii)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 0C62.0937 0 80 17.9063 80 40C80 59.9688 65.375 76.5156 46.2501 79.5157V51.5625L55.5703 51.5625L55.5704 51.5625L57.3438 40H57.3437H46.2501V32.5C46.2501 29.7315 47.4344 27.0227 51.0591 26.3888C51.5769 26.2982 52.1446 26.25 52.7657 26.25C52.7657 26.25 52.7657 26.25 52.7658 26.25L57.8125 26.25L57.8126 26.25V16.4062C57.8126 16.4062 57.8126 16.4063 57.8125 16.4062C57.8125 16.4062 53.2343 15.625 48.8593 15.625C46.5362 15.625 44.418 15.9828 42.5505 16.6811C37.0704 18.7302 33.75 23.7115 33.75 31.1875V40H23.5938H23.5937V51.5625L23.5938 51.5625L33.75 51.5625V79.5157C14.625 76.5157 0 59.9688 0 40C0 17.9063 17.9063 0 40 0Z" fill="#C4C4C4"/>
+</g>
+<defs>
+<filter id="filter0_bii" x="-4" y="-4" width="88" height="87.5156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow" result="effect3_innerShadow"/>
+</filter>
+</defs>
+</svg>
